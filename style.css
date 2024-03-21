@@ -106,15 +106,22 @@ body{
     width: 30px;
     
   }
+  #icons{
+    width: 100px;
+  }
  .icon{
     display: grid;
     grid-template-columns: auto auto auto auto auto;
  }
+ #h1{
+  text-align: center;
+ }
  .product{
     display: flex;
     flex: auto auto auto;
-    gap: 20%;
+    gap: 5%;
     text-align: center;
+    padding-left: 200px;
  }
  #ficons{
     width: 50px;
@@ -160,19 +167,34 @@ background-color: antiquewhite;
 }
 .container1{
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: 30% 40%;
+  padding-left: 200px;
 }
 .watch{
   padding-left: 100px;
 }
 .customer{
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: 20% 25% 25%;
+  padding-left: 200px;
+}
+.customerdiv2{
+  border-radius: 30px;
+  background-color: beige;
+  transform: rotate(-10deg);
+ 
+}
+.customerdiv3{
+  border-radius: 30px;
+  background-color: beige;
+  transform: rotate(-10deg);
+ 
 }
 .page3{
   display: grid;
-  grid-template-columns: 40% 40%;
+  grid-template-columns: 30% 30%;
   gap: 100px;
+  padding-left: 200px;
   
 }
 .edwin{
@@ -182,8 +204,10 @@ background-color: antiquewhite;
 .lastpage{
 
   display: grid;
-  grid-template-columns: 40% 40%;
+  grid-template-columns: 20% 20%;
   gap: 100px;
+  padding-left: 200px;
+  gap: 10%;
 }
 .last{
   display: flex;
@@ -200,4 +224,99 @@ background-color: antiquewhite;
   display: grid;
 padding-top: 5%;
   grid-template-columns: auto auto auto;
+ 
  }
+ @media screen  and (min-width:295px),(max-width:900px){
+
+  .topnav {
+    overflow: hidden;
+    
+    text-align: center;
+  }
+  .Roger{
+   font-size: smaller;
+  }
+  .landingpage{
+    flex-wrap: wrap;
+  }
+  .man1{
+   
+    flex-wrap: wrap;
+
+  }
+  .man2{
+    display: flex;
+
+    flex: auto,auto;
+    gap: 5%;
+    
+    transform: rotate(-5deg);
+    border-radius: 1300px;
+  }
+  #man1image{
+  
+    transform: rotate(-5deg);
+
+  }
+  .man2{
+    flex-wrap: wrap;
+  }
+  .icon{
+    display: flex;
+   
+    flex-wrap: wrap;
+ }
+ .rightside1{
+  transform: rotate(-1deg);
+  width: 200px
+ }
+ .product{
+  flex-wrap: wrap;
+  padding-left: 0px;
+}
+.undraw{
+  display: flex;
+  flex-wrap: wrap;
+ 
+}
+.container1{
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0px;
+}
+.page3{
+  display: flex;
+ flex-wrap: wrap;
+  padding-left: 0px;
+  
+}
+.customer{
+  display: flex;
+ flex-wrap: wrap;
+  padding-left: 0px;
+  gap: 10%;
+}
+.lastpage{
+
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0px;
+  gap: 10%;
+}
+.last{
+  flex-wrap: wrap;
+
+
+ }
+ .footer{
+  display: flex;
+  flex-wrap: wrap;
+padding-top: 5%;
+  
+ }
+ #man2image{
+ width: 250px;
+
+}
+
+}
