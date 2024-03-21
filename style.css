@@ -1,0 +1,203 @@
+body{
+    margin: 10%;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color:white;
+    text-align: center;
+    
+  }
+  
+  .topnav a {
+    float: centre;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  
+  
+  
+  .topnav a.split {
+    float: right;
+    background-color: white;
+    color: black;
+  }
+  
+  .topnav a.split2 {
+    float: left;
+    background-color: white;
+    color: black;
+  }
+  #button1{
+    background-color: palevioletred;
+    border-radius: 15px;
+    padding: 10px 12px;
+  }
+  .landingpage{
+    display: flex;
+    flex: auto auto;
+
+    gap:10%;
+  }
+  #improve{
+    color: rgb(38, 38, 89);
+    font-size: 50px;
+    font-style:oblique;
+  }
+  #deski{
+    color: grey;
+    font-size: 30px;
+    font-style: italic;
+  }
+  #button2{
+    border-radius: 20px;
+    text-align: center;
+      height: 50px;
+  }
+  .leftside{
+    padding-left: 100px;
+    padding-top: 100px;
+  }
+ .rightside1{
+  transform: rotate(-4deg);
+ }
+  #man1image{
+    width: 100px;
+    border-radius: 1200px;
+    border-image: 100%;
+    border: 10px solid palevioletred;
+    transform: rotate(-10deg);
+
+  }
+  .man1{
+    display: flex;
+    flex: 50% 50%;
+    gap: 5%;
+
+  }
+  .man1text{
+    background-color: aquamarine;
+    font-display:unset;
+
+  }
+  .Roger{
+    display: flex;
+    gap: 50px;
+    border-bottom: solid 1px;
+  }
+  .man2{
+    display: flex;
+
+    flex: auto,auto;
+    gap: 5%;
+    
+    transform: rotate(-10deg);
+    border-radius: 1300px;
+  }
+  #man2image{
+    border-radius: 50px;
+
+  }
+  #icon1{
+    width: 30px;
+    
+  }
+ .icon{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+ }
+ .product{
+    display: flex;
+    flex: auto auto auto;
+    gap: 20%;
+    text-align: center;
+ }
+ #ficons{
+    width: 50px;
+    padding-left: 50px;
+ }
+ .interface{
+    border: solid palevioletred;
+    border-radius: 20px;
+    float: centre;
+ }
+.watch{
+  display: grid;
+grid-template-columns: auto auto;
+border-radius: 200px;
+background-color: antiquewhite;
+}
+.how{
+  background-color: rgb(247, 247, 136);
+}
+.man1{
+  display: grid;
+  grid-template-rows: auto auto;
+  background-color: rgb(238, 237, 232);
+  border-radius: 30px;
+}
+ 
+
+.undraw{
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: purple;
+  
+}
+#man2{
+  padding-top: 20%;
+  border-radius: 30px;
+  background-color:rgb(238, 237, 232);
+}
+.container2{
+  
+  border-radius: 30px;
+  background-color: beige;
+}
+.container1{
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.watch{
+  padding-left: 100px;
+}
+.customer{
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.page3{
+  display: grid;
+  grid-template-columns: 40% 40%;
+  gap: 100px;
+  
+}
+.edwin{
+  border-radius: 30px;
+  border:   solid salmon;
+}
+.lastpage{
+
+  display: grid;
+  grid-template-columns: 40% 40%;
+  gap: 100px;
+}
+.last{
+  display: flex;
+  flex: auto auto auto;
+  gap: 10%;
+  background-color: rgb(38, 38, 81);
+  color: #f2f2f2;
+ }
+ .icons{
+  width: 50px;
+  height: 50px;
+ }
+ .footer{
+  display: grid;
+padding-top: 5%;
+  grid-template-columns: auto auto auto;
+ }
